@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="./assets/booking.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body onload="userName()">
+    <!-- naaaaaaaaaaavvvvvvvvvvv start -->
+
+    <div class="landing-page">
+        <span></span>
+        <div class="nav">
+            <div class="container">
+                <div class="logo">
+                    Resturant
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="home.html" id="h">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="serves.html">SERVICE</a></li>
+                        <li><a href="menu.html">MENU</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                    <a href="./signin.html" class="button1">Log IN </a>
+                    <a href="./register.html" class="button">Sign up</a>
+                    <h2 id="welcome"></h2>
+                    <button id="btnout" class="button3" onclick="logOut ()"><i class="fa fa-sign-out"></i></button>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <h1>Booking</h1>
+        </div>
+
+    </div>
+
+    <!-- naaaaaaaaaaavvvvvvvvvvv end -->
+
+    <!-- /* ////////////////////////////////////// */ -->
+    <div class="container1">
+        <div class="image">
+            <!-- <img src="./assets/images/video.jpg" alt=""> -->
+            <video
+                src="./assets/Videos/y2meta.com-Steak B-Roll Food Videography BBQ Brothers - B Roll - Cinematic Video-(720p).mp4"
+                autoplay muted loop></video>
+        </div>
+
+        <div class="content">
+            <div class="text-with-line">
+                <h5>Reservation</h5>
+            </div>
+            <h1>Book A Table Online</h1>
+
+            <form action="" method="get">
+                <div class="input">
+                    <input type="text" placeholder="Your Name" class="text-input">
+                    <input type="email" placeholder="Your Email" class="text-input">
+                </div>
+                <div class="sec-inputs">
+                    <input type="datetime-local">
+
+                    <select class="select" name="" id="options">
+                        <option value="people">No. of People</option>
+                        <option value="people">1 person</option>
+                        <option value="people">2 persons</option>
+                        <option value="people">3 persons</option>
+                        <option value="people">4 persons</option>
+                        <option value="people">5 persons</option>
+                        <option value="people">6 persons</option>
+                    </select>
+                </div>
+                <div class="text-area">
+                    <textarea name="" id="text-area" placeholder="Special Request"></textarea>
+                </div>
+                <div>
+                    <button class="book-button">BOOK NOW</button>
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+
+  <!-- Start Footer -->
+
+
+  <div class="footer">
+    <div class="container">
+        <div class="main">
+            <h3>Resturant</h3>
+            <ul>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Reservation</a></li>
+                <li><a href="">Menu</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <h3 class="head-footer">Contact</h3>
+            <p class="para"><i class="fa fa-map"></i>123 Street, New York, USA</p>
+            <p class="para"><i class="fa fa-mobile"></i>+012 345 67890</p>
+            <p class="para"><i class="fa fa-envelope"></i>info@example.com</p>
+            <div class="social">
+                <span><i class="fab fa-instagram"></i></span>
+                <span><i class="fab fa-facebook-f"></i></span>
+                <span><i class="fab fa-youtube"></i></span>
+                <span><i class="fab fa-linkedin-in"></i></span>
+            </div>
+        </div>
+        <div class="main">
+            <h3 class="head-footer">Opening</h3>
+            <h4>Monday - Saturady</h4>
+            <p>9:00 AM - 9:00 PM</p>
+            <h4>Sunday</h4>
+            <p>10:00 AM - 8:00 PM</p>
+        </div>
+    </div>
+</div>
+
+
+<!-- End Footer -->
+
+</body>
+<script src="js/username.js"></script>
+
+</html>
