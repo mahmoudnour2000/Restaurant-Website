@@ -1,0 +1,386 @@
+*{
+    font-family: cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 30px;
+    margin: auto;
+    width: 90%;
+}
+
+/* start landing */
+.landing-page {
+    position: relative;
+    background: linear-gradient(#000000b5, #000000b5), url(./images/y2meta.com-1594647beefSteakHDFootage-1080p-ezgif.com-speed.gif);
+    height: 50vh;
+    background-size: cover;
+
+}
+
+.header1 {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: x-large;
+    top: 45%;
+    left: 42%;
+}
+.header1 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.h {
+    color: #ffa726;
+}
+
+/* End landing */
+
+.landing-page .nav {
+    background-color:#0f172bb1;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+}
+.landing-page .nav .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1px;
+ 
+}
+
+.landing-page .logo {
+    width: 40%;
+    font-size: 40px;
+    color: #FEA116;
+}
+
+.landing-page .links {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+
+.landing-page ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.landing-page .links ul a:hover {
+    color: #FEA116;
+}
+
+.landing-page .links .button:hover {
+    background-color: #f3b252;
+}
+
+.landing-page a {
+    text-decoration: none;
+    color: white;
+}
+
+.landing-page .button {
+    background-color: #FEA116;
+    padding: 13px;
+    color: white;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    width: 18%;
+}
+.landing-page .links .button:hover {
+    background-color: #f3b252;
+}
+.landing-page .links .button1:hover {
+    background-color: #9a9a9a;
+}   
+.landing-page a {
+    text-decoration: none;
+    color: white;
+}
+.landing-page .button {
+    background-color: #FEA116;
+    padding: 10px;
+    color: white;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    width: 15%;
+    margin: 5px;
+}
+.landing-page .button1{
+    background-color: #ffffff;
+    padding: 10px;
+    color: #FEA116;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    width: 15%;
+    text-align: center;
+    margin: 5px;
+}
+#welcome{
+    font-size:medium;
+    color: #FEA116;
+}
+.landing-page .button3{
+    background-color: #fe1616;
+    padding: 2px;
+    color: #ffffff;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    width: 5%;
+    text-align: center;
+/*     margin: 5px;
+ */}
+/*start header*/
+.header {
+    padding: 25px;
+    margin: 20px;
+    text-align: center;
+}
+.header h2{
+    color: #0F172B;
+}
+.c {
+    color: #FEA116;
+    font-size: 25px;
+    position: relative;
+}
+
+.c::before {
+    content: '';
+    border: 1px solid #FEA116;
+    position: absolute;
+    height: 45px;
+    transform: rotate(90deg) translate(5px,40px);
+    top: -9px;
+    left: 650px;
+}
+
+.c::after {
+    content: '';
+    border: 1px solid #FEA116;
+    position: absolute;
+    height: 45px;
+    transform: rotate(90deg) translate(5px,-40px);
+    top: -9px;
+    right: 650px;
+}
+.gg{
+    justify-content: center;
+    display: flex;
+    margin-top: 1%;
+}
+.nn{
+    width: 60%;
+
+}
+.links0 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    
+
+
+}
+
+.links0 h2 {
+    color: #FEA116;
+    position: relative;
+}
+
+.links0 h2::after{
+    content: "";
+    display: block;
+    border: 1px #FEA116 solid;
+    width: 70px;
+    transform: translate(100px,-15px);
+}
+
+.links0 #tech::after{
+    content: "";
+    display: block;
+    border: 1px #FEA116 solid;
+    width: 70px;
+    transform: translate(120px,-15px);
+}
+.links1 {
+    display: flex;
+    justify-content: space-between;
+    top: 0px;
+    position: relative;
+    right: 40px;
+}
+
+.b {
+    position: relative;
+    left: 34px;
+}
+
+.b1 {
+    position: relative;
+    left: 20px
+}
+
+.links1 a {
+    text-decoration: none;
+    color: #607d8b;
+}
+
+.links1 i {
+    color: #FEA116;
+}
+
+.map .container {
+    display: flex;
+}
+.map-container {
+    width: 50%;
+    height: 400px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.input-field {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.half-width {
+    flex: 1;
+}
+
+.message-field {
+    height: 150px;
+}
+
+.submit-btn {
+    background-color: #FEA116;
+    border: none;
+    padding: 15px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #e1b30d;
+}
+
+/*end header*/
+
+/* Start Footer */
+
+.footer {
+    background-color: #0F172B;
+    color: white;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+.footer .container .main {
+    width: 31%;
+}
+.footer .container a {
+    text-decoration: none;
+    color:white;
+}
+.footer .container a::before {
+    content: "";
+    border: 7px solid;
+    border-color: transparent transparent transparent white;
+    display: inline-block;
+
+}
+.footer .container a:hover{
+    color: #FEA116;
+    
+}
+.footer .container li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.footer .container .main h3 {
+    margin-bottom: 18px;
+    font-size: 25px;
+    color: #FEA116;
+}
+
+.footer .container .main h3::after {
+    content: "";
+    border: #FEA116 2px solid;
+    display: block;
+    width: 60px;
+    transform: translate(128px, -14px);
+}
+.footer .container .main .head-footer::after {
+    transform: translate(103px, -14px);
+}
+
+.footer .social {
+    margin-top: 18px;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.footer .social span{
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    width: 37px;
+} 
+
+.footer .main p i {
+    margin-right: 15px;
+}
+.footer .main .para {
+    margin-bottom: 5px;
+}
+.footer .main #mobile {
+    font-size: 24px;
+}
+.footer .social span:hover {
+    background: #FEA116;
+    border-color: #FEA116;
+    color: white;
+}
+
+/* End Footer */
