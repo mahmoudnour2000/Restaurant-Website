@@ -1,0 +1,359 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+
+}
+.container {
+    padding: 30px;
+    margin: auto;
+    width: 90%;
+}
+
+/* header style */
+.landing-page{
+    /* background-color: #0f172b;  */
+    position: relative;
+    background: linear-gradient(#000000b5, #000000b5), url(./images/y2meta.com-1594647beefSteakHDFootage-1080p-ezgif.com-speed.gif);    background-size: 100%;
+    height: 50vh;
+
+}
+
+
+.header {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: x-large;
+    top: 45%;
+    left: 42%;
+}
+.header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.landing-page .nav {
+    background-color:#0f172bb1;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+}
+.landing-page .nav .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1px;
+
+}
+.landing-page .logo {
+    width: 40%;
+    font-size: 40px;
+    color: #FEA116;
+}
+.landing-page .links {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+
+.landing-page ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.landing-page .links ul a:hover {
+    color: #FEA116;
+}
+.landing-page .links .button:hover {
+    background-color: #f3b252;
+}
+.landing-page .links .button1:hover {
+    background-color: #9a9a9a;
+}
+.landing-page a {
+    text-decoration: none;
+    color: white;
+}
+.landing-page .button {
+    background-color: #FEA116;
+    padding: 10px;
+    color: white;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    width: 15%;
+    margin: 5px;
+}
+.landing-page .button1{
+    background-color: #ffffff;
+    padding: 10px;
+    color: #FEA116;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    width: 15%;
+    text-align: center;
+    margin: 5px;
+}
+.landing-page .button3{
+    background-color: #fe1616;
+    padding: 2px;
+    color: #ffffff;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    width: 5%;
+    text-align: center;
+/*     margin: 5px;
+ */}
+#welcome{
+    font-size:medium;
+    color: #f3b252;
+}
+
+.about-us{
+    display: flex;
+}
+.box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.images{
+    width: 43%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
+    
+}
+.images div{
+            width: 48.5%;
+            margin-bottom: 12px;
+}
+
+.large img{
+    width: 100%;
+}
+.mini1{
+    display: flex;
+    align-items: end;
+    padding-bottom: 5px;
+}
+.mini2{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+.mini1 img{
+    width: 75%;
+}
+.mini2 img{
+    width: 75%;
+}
+
+/* **************** */
+
+.content{
+    padding-top: 25px;
+    width: 46%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    justify-content: space-around;
+    justify-content: space-between;
+    font-family: "Nunito", sans-serif;
+}
+.content p{
+    color: rgb(97, 97, 97);
+}
+.head-with-line h5::after{
+    content: "";
+    display: block;
+    width: 30px;
+    border: 1px solid #FEA116;
+    transform: translate(78px, -7px);
+}
+.content h5{
+    /* padding-bottom: 10px; */
+    color: #FEA116;
+    font-size:medium;
+    font-family: 'Pacifico', cursive !important;
+}
+.double-box{
+    display: flex;
+    justify-content: space-between;
+
+}
+.numbers-box{
+    display: flex;
+    width: 60%;
+    border-left: 5px solid #FEA116 ;
+    padding: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.numbers-box h1{
+    color: #FEA116;
+    font-family: 'Pacifico', cursive !important; 
+    font-size: 40px;
+}
+.numbers-box span{
+    color: rgb(97, 97, 97);
+}
+.box-button{
+    font-size:medium;
+    margin-top: 15px;
+    background-color: #FEA116;
+    padding: 13px;
+    color: white;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    width: 35%;
+}
+
+
+
+/* ////////////////////////////////////// */
+
+.section-header{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-header h5{
+    color: #FEA116;
+    font-size:medium;
+    font-family: 'Pacifico', cursive !important;
+}
+.section-header h5::after{
+    content: "";
+    display: block;
+    width: 30px;
+    border: 1px solid #FEA116;
+    transform: translate(78px, -7px);
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 50px;
+
+}
+.card{
+    text-align: center;
+    width: 20%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card img{
+    width: 100%;
+    border: 0px solid;
+    border-radius: 50%;
+    
+}
+
+/* Start Footer */
+.container {
+    padding: 30px;
+    margin: auto;
+    width: 90%;
+}
+
+.footer {
+    background-color: #0F172B;
+    color: white;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+.footer .container .main {
+    width: 31%;
+}
+.footer .container a {
+    text-decoration: none;
+    color:white;
+}
+.footer .container a::before {
+    content: "";
+    border: 7px solid;
+     border-color: transparent transparent transparent white;
+    display: inline-block;
+
+}
+.footer .container a:hover{
+    color: #FEA116;
+    
+}
+.footer .container li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.footer .container .main h3 {
+    margin-bottom: 18px;
+    font-size: 25px;
+    color: #FEA116;
+}
+
+.footer .container .main h3::after {
+    content: "";
+    border: #FEA116 2px solid;
+    display: block;
+    width: 60px;
+    transform: translate(128px, -14px);
+}
+.footer .container .main .head-footer::after {
+    transform: translate(103px, -14px);
+}
+
+.footer .social {
+    margin-top: 18px;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.footer .social span{
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    width: 37px;
+} 
+
+.footer .main p i {
+    margin-right: 15px;
+}
+.footer .main .para {
+    margin-bottom: 5px;
+}
+.footer .social span:hover {
+    background: #FEA116;
+    border-color: #FEA116;
+    color: white;
+}
+
+/* End Footer */
